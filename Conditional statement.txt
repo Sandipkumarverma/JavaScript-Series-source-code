@@ -1,0 +1,202 @@
+
+// if statement
+
+// let num = 16;
+
+// if (num % 2 === 0)
+// {
+//     console.log(num,"this number is even ");
+// }
+// if (num % 2 !== 0) {
+//     console.log("Given number is odd number.");
+// };
+
+
+
+//if else statement
+
+
+// let age = 25;
+
+// if (age >= 18) {
+//     console.log("You are eligible of driving licence")
+// } else {
+//     console.log("You are not eligible for driving licence")
+// };
+
+
+
+
+//if else if statement
+
+
+// const num = 0;
+
+// if (num > 0) {
+//     console.log("Given number is positive.");
+// } else if (num < 0) {
+//     console.log("Given number is negative.");
+// } else {
+//     console.log("Given number is zero.");
+// };
+
+
+
+
+
+// switch statement
+
+// const marks = prompt("please input the student marks");
+
+// let Grade;
+
+// switch (true) {
+//     case marks >= 90:
+//         Grade = "A+";
+//         break;
+//     case marks >= 80:
+//         Grade = "A";
+//         break;
+//     case marks >= 70:
+//         Grade = "B";
+//         break;
+//     case marks >= 60:
+//         Grade = "C";
+//         break;
+//     case marks >= 50:
+//        Grade = "D";
+//         break;
+//     default:
+//         Grade = "Failed";
+//         break;
+// }
+
+//console.log(`Student Grade is : ${Grade}`);
+
+
+
+
+// nested if else
+
+// let weather = "sunny";
+// let temperature = 25;
+
+// if (weather === "sunny") {
+//     if (temperature > 30) {
+//         console.log("It's a hot day!");
+//     } else if (temperature > 20) {
+//         console.log("It's a warm day.");
+//     } else {
+//         console.log("It's a bit cool today.");
+//     }
+// } else if (weather === "rainy") {
+//     console.log("Don't forget your umbrella!");
+// } else {
+//     console.log("Check the weather forecast!");
+// };
+
+
+
+// let num = 15;
+// if(num % 2 ===0){
+//     console.log(num,"this num is even");
+// }
+// if(num % 2 !==0){
+//     console.log(num, "number is odd");
+    
+// }
+
+// let color = "black";
+// let display;
+
+// if(color == "white"){
+//     console.log(display = "white");
+// }
+// if(color == "black"){
+//     console.log(display = "black");
+    
+// }
+
+// let num = prompt("please enter any number");
+
+// if(num % 2 === 0){
+//     console.log(num,'the number is even');
+// }else{
+//     console.log(num,'the number is odd');
+// }
+
+
+
+
+
+// let age = prompt("please enter age");
+// const name = prompt("please enter the name of this person") 
+
+// if(age >= 18){
+//     console.log("Name",name, "Age",age,'is eligible for driving');   
+// }else{
+//     console.log("Name",name, "Age",age," is not eligible for driving");
+    
+// }
+
+
+
+
+
+// let num = prompt("please any number");
+
+// if(num > 0){
+//     console.log("this is positive number");
+// } else if (num < 0){
+//     console.log("this is negative number");
+// } else {
+//     console.log("this is 0");
+    
+// };
+
+
+// const marks = prompt("Enter your marks");
+// let Grade;
+
+// switch(true){
+//     case marks >= 90:
+//     Grade = "A+";
+//     break;
+//     case marks >= 80:
+//     Grade = "A";
+//     break;
+//     case marks >= 70:
+//     Grade = "B";
+//     break;
+//     case marks >= 60:
+//     Grade = "C";
+//     break;
+//     case marks >= 50:
+//     Grade = "D";
+//     break;
+//     default:
+//         Grade = "Failed";
+//         break;
+
+// }
+
+// console.log("student Grade is :" ,Grade);
+
+
+
+// let weather = prompt("enter weather");
+// let temperature = prompt("Enter present temperature");
+
+// if(weather === "sunny"){
+//     if(temperature > 30){
+//         console.log("it's hot day");
+//     } else if (temperature > 20){
+//         console.log("it's warm day");
+//     }else{
+//         console.log("it's cool day");
+//     }
+// }else if(weather === "rainny"){
+//     console.log("Don't forget your umbrella");
+// }else{
+//     console.log("check weather forecast");
+// }
