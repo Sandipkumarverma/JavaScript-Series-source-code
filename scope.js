@@ -1,45 +1,48 @@
+// global scope
 
 
-// let var1 = "NextEra"
-// const var2 = "Coders"
-// var var3 = "NextEra Coders"
+let var1 = "NextEra"
+const var2 = "Coders"
+var var3 = "NextEra Coders"
+
+function check(){
+    console.log(var1);
+    console.log(var2);
+    console.log(var3);
+  
+}
+check();
 
 
-// var c = 300
-// console.log(var1);
-// console.log(var2);
-// console.log(var3);
 
 
-{
-    // let a = 10
-    // const b = 20
-    // var c = 30
+// function scope
+
+
+function check_function(){
+    let var1 = "NextEra"
+    const var2 = "Coders"
+    var var3 = "NextEra Coders" 
+    console.log(var1);
+    console.log(var2);
+    
+    
     
 }
-
-//console.log(a);
-//console.log(b);
-//console.log(c);
+check_function();
+console.log(var3);
 
 
-// let var1 = "NextEra"
-// const var2 = "Coders"
-// var var3 = "NextEra Coders"
 
+// block scope
 
-// function Myfunction(){
-//     let var1 = "NextEra"
-//     const var2 = "Coders"
-//     var var3 = "NextEra Coders" 
-
+{
+    let var1 = "NextEra"
+    const var2 = "Coders"
+    var var3 = "NextEra Coders" 
     
-    
-// }
-// Myfunction()
-//console.log(var1);
-  //  console.log(var2);
-    //console.log(var3);
+    console.log(var1);
+     console.log(var3);
+}
+console.log(var2);
 
-
-    
